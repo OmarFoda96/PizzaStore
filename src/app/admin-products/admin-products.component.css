@@ -1,0 +1,8 @@
+.icons {
+  font-size: 20px;
+}
+
+.card-header, .card, .card-body, .card-footer {
+  background-color: #232629;
+  border-color: #343a40;
+}

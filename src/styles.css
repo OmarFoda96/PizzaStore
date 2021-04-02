@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~ngx-toastr/toastr";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-image: url('./assets/ori_58602_e54784bae5b338ce1663d25b19cf29207d028729_fast-food-vector-illustrations.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #1b1b1b!important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.outline-danger {
+  border-color: red!important;
+  box-shadow: 0 0 4px 0 red;
+}
+
+.toast-container {
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: titleFonts;
+  src: url('./assets/BebasNeue-Regular.woff');
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.titles {
+  font-family: titleFonts;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
